@@ -155,7 +155,7 @@ jobs:
       - name: Checkout GitOps repository
         uses: actions/checkout@v4
         with:
-          repository: skowronf/enterprise-platform
+          repository: skowronf/kubernetes
           token: ${{ secrets.GITOPS_TOKEN }}
 
 
